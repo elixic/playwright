@@ -22,6 +22,12 @@ A basic understanding of TypeScript, Node, and the command line are required.
 4. Open a new terminal and run the folloing commands
    1. `npm install`
    2. `npx playwright install chromium firefox webkit` or open the VS Code Command Pallet and search for Test: Install Playwright
-5. 
+
+
+# TODO
+* Finish the How to run it instructions
+* Add the instructions for how to use it with Docker
+* Add the instructions for recording tests
+* Add branches that contain different steps of a tutorial for following along
 
 
