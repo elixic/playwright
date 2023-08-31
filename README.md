@@ -22,6 +22,9 @@ A basic understanding of TypeScript, Node, and the command line are required.
 4. Open a new terminal and run the folloing commands
    1. `npm install`
    2. `npx playwright install chromium firefox webkit` or open the VS Code Command Pallet and search for Test: Install Playwright
+   3. `npx playwright test` will run the tests.
+
+## Running tests with vs code extension and recording tests
 
 
 # TODO

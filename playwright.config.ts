@@ -37,15 +37,22 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
+    // Each of the listed browsers will be considerd a test
+    // So if the browsers below are installed and uncommented
+    // then running "npx playwright test" will run one test (and worker) per
+    // test.
+    // To specify an individual browser use the --projects flag. eg;
+    // npx playwright test --project=chromium
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
 
     /* Test against mobile viewports. */
     // {
