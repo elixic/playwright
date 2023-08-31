@@ -4,7 +4,7 @@
   "description": "Basic playwright sandbox",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test google"
+    "test": "npx playwright test --project=chromium"
   },
   "keywords": [],
   "author": "",
